@@ -52,3 +52,5 @@ RUN wget http://download.osgeo.org/postgis/source/postgis-2.2.0.tar.gz; \
     rm -rf postgis-2.2.0*
 
 RUN ldconfig
+
+ADD update-pgconf.sh /docker-entrypoint-initdb.d/
