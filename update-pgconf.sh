@@ -115,11 +115,11 @@ max_connections = 100			# (change requires restart)
 
 # - Memory -
 
-shared_buffers = 1GB			# min 128kB
+shared_buffers = 768GB			# min 128kB
 					# (change requires restart)
 #huge_pages = try			# on, off, or try
 					# (change requires restart)
-#temp_buffers = 8MB			# min 800kB
+temp_buffers = 64MB			# min 800kB
 #max_prepared_transactions = 0		# zero disables the feature
 					# (change requires restart)
 # Note:  Increasing max_prepared_transactions costs ~600 bytes of shared memory
